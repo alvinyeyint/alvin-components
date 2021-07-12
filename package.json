@@ -1,19 +1,28 @@
 {
-  "name": "alvin-components",
+  "name": "@yeyint/alvin-components",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "yarn link && yarn link alvin-components",
+    "postinstall": "yarn link && yarn link @yeyint/alvin-components",
     "dev": "yarn nuxt dev with-nuxt"
   },
   "devDependencies": {
-    "nuxt": "^2.14.1"
+    "nuxt": "^2.15.7"
   },
   "keywords": [
     "alvin"
   ],
   "author": "Ye Yint",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvinyeyint/alvin-components.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alvinyeyint/alvin-components/issues"
+  },
+  "homepage": "https://github.com/alvinyeyint/alvin-components#readme",
+  "description": "This is a first package.",
+  "dependencies": {}
 }
